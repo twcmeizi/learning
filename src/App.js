@@ -4,6 +4,8 @@ import UseMemo from './hooks/UseMemo.js'
 import RefsDemo from './hooks/RefsDemo.js'
 import ContextDemo from "./hooks/ContextDemo";
 import UseLayoutEffectDemo from './hooks/UseLayoutEffectDemo'
+import ShouldComponentDemo from './hooks/ShouldComponentDemo'
+import MemoDemo from "./hooks/MemoDemo";
 // import DialogPage from './DialogPage';
 // import LiItem from "./hooks/LiItem";
 // import LifeCycle from './lifeCycle/index';
@@ -18,7 +20,7 @@ export default class App extends Component {
             <Router>
       
         {/*<RefsDemo></RefsDemo> */}
-        <UseLayoutEffectDemo/>
+        <MemoDemo/>
       </Router>
             // <Router>
             //   {/* <Link to="/hooks">hooks</Link>
