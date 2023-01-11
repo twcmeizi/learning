@@ -12,7 +12,8 @@ import App from "./App";
 // import UseSubmitPage from './routerHook/useSubmitPage'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <React.StrictMode>
+  <>
+     {/*<React.StrictMode>*/}
     {/* <IndexPage /> */}
     {/* <UseLocationPage /> */}
     {/* <Routerloader /> */}
@@ -20,7 +21,8 @@ root.render(
     {/* <UseRoutesPage/> */}
       {/* <UseSubmitPage/>*/}
     <App/>
-  </React.StrictMode>
+  {/* </React.StrictMode>*/}
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

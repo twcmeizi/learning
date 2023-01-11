@@ -6,6 +6,9 @@ import ContextDemo from "./hooks/ContextDemo";
 import UseLayoutEffectDemo from './hooks/UseLayoutEffectDemo'
 import ShouldComponentDemo from './hooks/ShouldComponentDemo'
 import MemoDemo from "./hooks/MemoDemo";
+import ChildrenMap from './reactChildren/ChildrenMap'
+import Reactlife from "./component/reactlife";
+import ErrorBound from "./component/ErrorBound";
 // import DialogPage from './DialogPage';
 // import LiItem from "./hooks/LiItem";
 // import LifeCycle from './lifeCycle/index';
@@ -20,7 +23,7 @@ export default class App extends Component {
             <Router>
       
         {/*<RefsDemo></RefsDemo> */}
-        <MemoDemo/>
+        <ErrorBound/>
       </Router>
             // <Router>
             //   {/* <Link to="/hooks">hooks</Link>
